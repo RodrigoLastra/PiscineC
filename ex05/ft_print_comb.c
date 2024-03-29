@@ -1,41 +1,36 @@
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
 void	ft_print_comb(void)
 {
-	char	first;
-	char	second;
-	char	third;
+   char primero;
+   char segundo;
+   char tercero;
 
-	first = '0' - 1;
-	while (++first < ':')
-	{
-		second = first;
-		while (++second <':')
-		{
-			third = second + 1;
-	
-			while (third < ':')
-			{
-				ft_putchar(first);
-				ft_putchar(second);
-				ft_putchar(third);
-				if (first != '7' || second != '8' || third != '9')
-				{
-			
-					ft_putchar('-');
-				}
-				third++;
-			}
-		}
-	}
+    primero =  48 - 1; // "/" 0 vale 48
+    while(primero < 58 ){  // primero vale 48 y 9 vale 57
+    primero = primero + 1; // primero vale 48 osea 0
+        segundo = primero; // segundo vale 48 osea 0
+        while(segundo < 58 ){
+            segundo = segundo + 1; // segundo vale 49 osea 1
+                tercero = segundo + 1;
+                while(tercero<':'){
+                write(1, &primero, 1);
+                write(1, &segundo, 1);
+                write(1, &tercero, 1);
+                write(1, " ", 1);
+                
+            tercero++;
+                
+            }
+            
+        }
+
+    }
+    
 }
-int main(void){
 
-    ft_print_comb();
-    return  (0);
+int main(){
+
+ft_print_comb();
+return(0);
 }
