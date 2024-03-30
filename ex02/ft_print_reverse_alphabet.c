@@ -9,8 +9,3 @@ void ft_print_reverse_alphabet(void)
             num2 = num2 - 1;
         }
 }
-
-int main(void){
-    ft_print_reverse_alphabet();
-    return(0);
-}

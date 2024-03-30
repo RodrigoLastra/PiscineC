@@ -9,9 +9,3 @@ void ft_print_numbers(void)
         num3 = num3 + 1;
     }
 }
-
-int main(void){
-
-    ft_print_numbers();
-    return(0);
-}
