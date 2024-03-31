@@ -17,7 +17,10 @@ void	ft_print_comb(void)
                 write(1, &primero, 1);
                 write(1, &segundo, 1);
                 write(1, &tercero, 1);
-                write(1, " ", 1);
+                if(primero==55 && segundo==56 && tercero==57){
+                    return;
+                }
+                write(1, ", ", 2);
                 
             tercero++;
                 

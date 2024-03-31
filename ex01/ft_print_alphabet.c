@@ -9,3 +9,7 @@ void ft_print_alphabet(void)
             num1 = num1 + 1;
         }    
 }
+int main (){
+    ft_print_alphabet();
+    return(0);
+}
