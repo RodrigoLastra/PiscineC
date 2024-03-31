@@ -12,6 +12,7 @@ ex01 Correcto
 ex02 Correcto
 ex03 Correcto
 ex04 Correcto
+ex05 Correcto
 
 agonzales
 ex00 ok
