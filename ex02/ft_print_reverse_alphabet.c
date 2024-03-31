@@ -6,11 +6,6 @@ void ft_print_reverse_alphabet(void)
         while (num2 > 96)
         {  
              write(1, &num2, 1);
-            num2 = num2 - 1;
+            num2--;
         }
 } 
-int main ()
-{
-     ft_print_reverse_alphabet();
-     return 0;   
-}

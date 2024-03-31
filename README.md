@@ -12,3 +12,11 @@ ex01 Correcto
 ex02 Correcto
 ex03 Correcto
 ex04 Correcto
+
+agonzales
+ex00 ok
+ex01 ok
+ex02 ok
+ex03 ok
+ex04 ok
+ex05 ok pero falta 2 CORRECIONES
